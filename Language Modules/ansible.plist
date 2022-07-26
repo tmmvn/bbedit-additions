@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>BBEditDocumentType</key>
+    <string>CodelessLanguageModule</string>
+    <key>BBLMLanguageCode</key>
+    <string>AYML</string>
+    <key>BBLMLanguageDisplayName</key>
+    <string>Ansible</string>
+    <key>BBLMSuffixMap</key>
+    <array>
+    <dict>
+    <key>BBLMLanguageSuffix</key>
+    <string>.yml</string>
+    </dict>
+    </array>
+    <key>BBLMFileNamesToMatch</key>
+    <array>
+      <string>*.yml</string>
+    </array>
+    <key>BBLMColorsSyntax</key>
+    <true/>
+    <key>BBLMSupportsTextCompletion</key>
+    <true/>
+    <key>BBLMIsCaseSensitive</key>
+    <true/>
+    <key>BBLMPredefinedNameList</key>
+    <array>
+      <string>-</string>
+    </array>
+    <key>BBLMCommentLineDefault</key>
+    <string>#</string>
+    <key>BBLMKeywordList</key>
+    <array>
+      <string>hosts:</string>
+      <string>name:</string>
+      <string>become:</string>
+      <string>vars:</string>
+      <string>tasks:</string>
+      <string>yum:</string>
+      <string>service:</string>
+      <string>apt:</string>
+      <string>roles:</string>
+      <string>state:</string>
+      <string>pre_tasks:</string>
+      <string>post_tasks:</string>
+      <string>become_user:</string>
+      <string>group:</string>
+      <string>shell:</string>
+      <string>home:</string>
+      <string>file:</string>
+      <string>path:</string>
+      <string>owner:</string>
+      <string>mode:</string>
+      <string>vars_files:</string>
+      <string>permanent:</string>
+      <string>immediate:</string>
+      <string>copy:</string>
+      <string>src:</string>
+      <string>dest:</string>
+      <string>remote_src:</string>
+      <string>enabled:</string>
+      <string>get_url:</string>
+      <string>url:</string>
+      <string>uri:</string>
+      <string>status_code:</string>
+    </array>
+    <key>Language Features</key>
+    <dict>
+      <key>Open Line Comments</key>
+      <string>#</string>
+      <key>Identifier and Keyword Character Class</key>
+      <string>a-zA-Z0-9_:</string>
+      <key>Open Strings 1</key>
+      <string>"</string>
+      <key>Close Strings 1</key>
+      <string>"</string>
+      <key>Open Strings 2</key>
+      <string>'</string>
+      <key>Close Strings 2</key>
+      <string>'</string>
+      <key>Escape Char in Strings 1</key>
+      <string>\</string>
+      <key>End-of-line Ends Strings 1</key>
+      <true/>
+    </dict>
+  </dict>
+</plist>
