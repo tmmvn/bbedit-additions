@@ -33,45 +33,45 @@
     <string>#</string>
     <key>BBLMKeywordList</key>
     <array>
-      <string>hosts:</string>
-      <string>name:</string>
-      <string>become:</string>
-      <string>vars:</string>
-      <string>tasks:</string>
-      <string>yum:</string>
-      <string>service:</string>
       <string>apt:</string>
-      <string>roles:</string>
-      <string>state:</string>
-      <string>pre_tasks:</string>
-      <string>post_tasks:</string>
+      <string>become:</string>
       <string>become_user:</string>
-      <string>group:</string>
-      <string>shell:</string>
-      <string>home:</string>
-      <string>file:</string>
-      <string>path:</string>
-      <string>owner:</string>
-      <string>mode:</string>
-      <string>vars_files:</string>
-      <string>permanent:</string>
-      <string>immediate:</string>
       <string>copy:</string>
-      <string>src:</string>
       <string>dest:</string>
-      <string>remote_src:</string>
       <string>enabled:</string>
+      <string>file:</string>
       <string>get_url:</string>
-      <string>url:</string>
-      <string>uri:</string>
+      <string>group:</string>
+      <string>home:</string>
+      <string>hosts:</string>
+      <string>immediate:</string>
+      <string>mode:</string>
+      <string>name:</string>
+      <string>owner:</string>
+      <string>path:</string>
+      <string>permanent:</string>
+      <string>post_tasks:</string>
+      <string>pre_tasks:</string>
+      <string>remote_src:</string>
+      <string>roles:</string>
+      <string>service:</string>
+      <string>shell:</string>
+      <string>src:</string>
+      <string>state:</string>
       <string>status_code:</string>
+      <string>tasks:</string>
+      <string>uri:</string>
+      <string>url:</string>
+      <string>vars:</string>
+      <string>vars_files:</string>
+      <string>yum:</string>
     </array>
     <key>Language Features</key>
     <dict>
       <key>Open Line Comments</key>
       <string>#</string>
       <key>Identifier and Keyword Character Class</key>
-      <string>a-zA-Z0-9_:</string>
+      <string>a-zA-Z0-9_:-</string>
       <key>Open Strings 1</key>
       <string>"</string>
       <key>Close Strings 1</key>
