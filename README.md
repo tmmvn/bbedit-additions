@@ -15,7 +15,28 @@ Two themes: MSDOS and Eclipse. MS-DOS is for old geezers like me, who started co
 Image 1. A screenshot of BBEdit with MS-DOS inspired theme.
 
 ![Screenshot of BBEdit with Eclipse Theme](/ss2.png)
-Image 2. A screenshot of BBEdit with Eclipse IDE inspired theme. 
+Image 2. A screenshot of BBEdit with Eclipse IDE inspired theme.
+
+### Clippings
+Four clippings for copyrights and licenses. Each takes current year and the full
+name of the logged in user to automatically generate a copyright notice to be
+placed in top of your code files, and one to go in LICENSE.
+
+The licenses included in the clippings are:
+#### BSD
+The original BSD that gives credit where credit is due.
+
+#### BSD-free
+The more modern BSD license that allows pretty free use.
+
+#### EFL
+Eiffel license. More fun than the typical MIT, while similar in spirit.
+
+#### Github
+A simple free-use give credit where credit is due (ZLIB).
+
+Use the clippings in licenses for LICENSE, and clippings in copyrights for code
+files.
 
 ## NOTES
 - Ansible hooks into *.yml, which is what the internal yml module does. It is not guaranteed which one takes presedence, so you will likely need to select the language by hand at times.
