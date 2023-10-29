@@ -2,9 +2,25 @@
 BBEdit additions, such as language modules, language servers, themes, text filters, and more.
 
 ## Installation
-BBEdit has good documentation on how to customize the functionality. If you can't sort that out, not sure you should be using BBEdit (or Ansible/Serverless for that matter). *HINT*: You need to what you want from this repo to your BBEdit support folder. Whether you clone, link, download and copy, or just create a new file and do a good old fashioned copy-paste, that, my friend, is up to you.
+BBEdit has good documentation on how to customize the functionality. If you can't sort that out, not sure you should be using BBEdit (or Ansible/Serverless for that matter). *HINT*: You need to copy what you want from this repo to your BBEdit support folder. Whether you clone, link, download and copy, or just create a new file and do a good old fashioned copy-paste, that, my friend, is up to you.
 
 ## Contents
+### AI Assistant Text Filters
+There are three Text Filters that provide limited AI assistant functionality to BBEdit. The scripts are written in ruby, and utilize Google's PALM2 API. You will need your own API key for the filters to work. Replace the key variable string with your key inside the script file. But don't commit that as leaking the key is bad! If you wish to use OpenAI, switching the url endpoint and parameters should be easy.
+
+	All the text filters work on the selected text. If not text is selected, I think BBEdit will send the whole document in. This will likely get you past the token limit supported in LLMs, so try to work in chunks.
+
+	The three filters are described below.
+
+#### AI - Debug
+	Select a block of code that is not working, and the AI assistant will try to give a suggestion to fix the code. The prompt will use whatever language is set for the document in BBEdit.
+
+#### AI - Generator
+	Can be used to generate new code. For example, you could write "Create a python 3 function that takes an input and multiplies it by 3.", select that text, apply the filter, and the text will be replaced by the response from the AI assistant.
+
+#### AI - Suggestions
+	A suggestions module. Not super useful as it does not provide copilot level of interactivity due to the need to invoke manually and also due to the latency added. Will provide suggestions for what the AI thinks should be the next 5 lines of code.
+
 ### Two crude language support implementations
 Ansible Playbooks and Serverless. Both are pretty much just extensions to yml, but as I have yet to figure out if I can somehow use the compiled YML BBEdit module inside BBEdit as a base, these are just a simple keyword based addition.
 
