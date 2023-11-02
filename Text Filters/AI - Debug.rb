@@ -1,4 +1,7 @@
 #!/usr/bin/env ruby
+# Copyright 2023, Tommi Venemies
+# Licensed under the Zlib license.
+
 
 require 'json'
 require 'net/http'
